@@ -1,0 +1,18 @@
+{
+    "seed": 42,
+    "train_size": 45000,
+    "val_size": 5000,
+    "val_per_class": 500,
+    "classes": [
+        "airplane",
+        "automobile",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "frog",
+        "horse",
+        "ship",
+        "truck"
+    ]
+}

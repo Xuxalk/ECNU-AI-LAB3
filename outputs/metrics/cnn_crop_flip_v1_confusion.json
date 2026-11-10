@@ -1,0 +1,192 @@
+{
+    "experiment": "cnn_crop_flip_v1",
+    "split": "validation",
+    "samples": 5000,
+    "accuracy": 86.82,
+    "per_class_accuracy": {
+        "airplane": 91.4,
+        "automobile": 91.8,
+        "bird": 91.8,
+        "cat": 69.39999999999999,
+        "deer": 84.8,
+        "dog": 80.4,
+        "frog": 87.2,
+        "horse": 85.6,
+        "ship": 92.60000000000001,
+        "truck": 93.2
+    },
+    "confusion_matrix": [
+        [
+            457,
+            2,
+            17,
+            3,
+            4,
+            2,
+            2,
+            1,
+            7,
+            5
+        ],
+        [
+            9,
+            459,
+            2,
+            1,
+            0,
+            0,
+            2,
+            1,
+            4,
+            22
+        ],
+        [
+            14,
+            0,
+            459,
+            0,
+            9,
+            6,
+            7,
+            4,
+            0,
+            1
+        ],
+        [
+            8,
+            1,
+            51,
+            347,
+            6,
+            53,
+            23,
+            6,
+            2,
+            3
+        ],
+        [
+            8,
+            0,
+            21,
+            12,
+            424,
+            9,
+            12,
+            13,
+            0,
+            1
+        ],
+        [
+            4,
+            0,
+            32,
+            35,
+            10,
+            402,
+            4,
+            10,
+            1,
+            2
+        ],
+        [
+            5,
+            0,
+            39,
+            7,
+            11,
+            1,
+            436,
+            0,
+            1,
+            0
+        ],
+        [
+            8,
+            0,
+            22,
+            7,
+            11,
+            20,
+            1,
+            428,
+            1,
+            2
+        ],
+        [
+            24,
+            4,
+            3,
+            1,
+            1,
+            0,
+            1,
+            0,
+            463,
+            3
+        ],
+        [
+            11,
+            11,
+            0,
+            2,
+            1,
+            0,
+            2,
+            1,
+            6,
+            466
+        ]
+    ],
+    "top_confusions": [
+        {
+            "true": "cat",
+            "predicted": "dog",
+            "count": 53
+        },
+        {
+            "true": "cat",
+            "predicted": "bird",
+            "count": 51
+        },
+        {
+            "true": "frog",
+            "predicted": "bird",
+            "count": 39
+        },
+        {
+            "true": "dog",
+            "predicted": "cat",
+            "count": 35
+        },
+        {
+            "true": "dog",
+            "predicted": "bird",
+            "count": 32
+        },
+        {
+            "true": "ship",
+            "predicted": "airplane",
+            "count": 24
+        },
+        {
+            "true": "cat",
+            "predicted": "frog",
+            "count": 23
+        },
+        {
+            "true": "automobile",
+            "predicted": "truck",
+            "count": 22
+        },
+        {
+            "true": "horse",
+            "predicted": "bird",
+            "count": 22
+        },
+        {
+            "true": "deer",
+            "predicted": "bird",
+            "count": 21
+        }
+    ]
+}

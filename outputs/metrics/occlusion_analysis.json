@@ -1,0 +1,50 @@
+[
+    {
+        "pair": [
+            "cat",
+            "dog"
+        ],
+        "sample_index": 13393,
+        "confidence": 0.9815829396247864,
+        "predicted_logit": 6.034965515136719,
+        "true_logit": 2.0202853679656982,
+        "predicted_max_positive_drop": 4.211026251316071,
+        "true_max_positive_drop": 2.5175641775131226
+    },
+    {
+        "pair": [
+            "cat",
+            "bird"
+        ],
+        "sample_index": 15877,
+        "confidence": 0.9941984415054321,
+        "predicted_logit": 4.856586933135986,
+        "true_logit": -2.1106972694396973,
+        "predicted_max_positive_drop": 2.774837553501129,
+        "true_max_positive_drop": 1.090152621269226
+    },
+    {
+        "pair": [
+            "frog",
+            "bird"
+        ],
+        "sample_index": 13220,
+        "confidence": 0.9994644522666931,
+        "predicted_logit": 8.72192668914795,
+        "true_logit": -0.9616121649742126,
+        "predicted_max_positive_drop": 4.090822696685791,
+        "true_max_positive_drop": 6.050695896148682
+    },
+    {
+        "pair": [
+            "dog",
+            "cat"
+        ],
+        "sample_index": 42461,
+        "confidence": 0.8923006653785706,
+        "predicted_logit": 3.7399818897247314,
+        "true_logit": 1.5800334215164185,
+        "predicted_max_positive_drop": 3.7069392800331116,
+        "true_max_positive_drop": 3.5444563031196594
+    }
+]

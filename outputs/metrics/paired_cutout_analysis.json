@@ -1,0 +1,901 @@
+{
+  "42": {
+    "cat": {
+      "both_correct": 324,
+      "b_only_correct": 23,
+      "d_only_correct": 81,
+      "both_wrong": 72,
+      "transitions": [
+        {
+          "from": "bird",
+          "to": "cat",
+          "count": 27
+        },
+        {
+          "from": "dog",
+          "to": "cat",
+          "count": 24
+        },
+        {
+          "from": "cat",
+          "to": "dog",
+          "count": 16
+        },
+        {
+          "from": "frog",
+          "to": "cat",
+          "count": 15
+        },
+        {
+          "from": "airplane",
+          "to": "cat",
+          "count": 5
+        },
+        {
+          "from": "horse",
+          "to": "cat",
+          "count": 5
+        },
+        {
+          "from": "bird",
+          "to": "dog",
+          "count": 5
+        },
+        {
+          "from": "deer",
+          "to": "cat",
+          "count": 4
+        },
+        {
+          "from": "bird",
+          "to": "frog",
+          "count": 3
+        },
+        {
+          "from": "bird",
+          "to": "deer",
+          "count": 2
+        },
+        {
+          "from": "frog",
+          "to": "dog",
+          "count": 2
+        },
+        {
+          "from": "cat",
+          "to": "frog",
+          "count": 2
+        },
+        {
+          "from": "cat",
+          "to": "bird",
+          "count": 2
+        },
+        {
+          "from": "cat",
+          "to": "airplane",
+          "count": 2
+        },
+        {
+          "from": "dog",
+          "to": "bird",
+          "count": 2
+        },
+        {
+          "from": "deer",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "ship",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "ship",
+          "count": 1
+        },
+        {
+          "from": "horse",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "frog",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "automobile",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "automobile",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "truck",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "truck",
+          "to": "dog",
+          "count": 1
+        }
+      ]
+    },
+    "dog": {
+      "both_correct": 363,
+      "b_only_correct": 39,
+      "d_only_correct": 29,
+      "both_wrong": 69,
+      "transitions": [
+        {
+          "from": "dog",
+          "to": "cat",
+          "count": 28
+        },
+        {
+          "from": "bird",
+          "to": "dog",
+          "count": 10
+        },
+        {
+          "from": "cat",
+          "to": "dog",
+          "count": 8
+        },
+        {
+          "from": "dog",
+          "to": "bird",
+          "count": 6
+        },
+        {
+          "from": "bird",
+          "to": "cat",
+          "count": 6
+        },
+        {
+          "from": "frog",
+          "to": "dog",
+          "count": 3
+        },
+        {
+          "from": "dog",
+          "to": "deer",
+          "count": 3
+        },
+        {
+          "from": "horse",
+          "to": "dog",
+          "count": 3
+        },
+        {
+          "from": "deer",
+          "to": "dog",
+          "count": 2
+        },
+        {
+          "from": "deer",
+          "to": "cat",
+          "count": 2
+        },
+        {
+          "from": "horse",
+          "to": "cat",
+          "count": 2
+        },
+        {
+          "from": "dog",
+          "to": "horse",
+          "count": 2
+        },
+        {
+          "from": "bird",
+          "to": "horse",
+          "count": 2
+        },
+        {
+          "from": "airplane",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "ship",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "truck",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "horse",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "seed123": {
+    "cat": {
+      "both_correct": 350,
+      "b_only_correct": 12,
+      "d_only_correct": 82,
+      "both_wrong": 56,
+      "transitions": [
+        {
+          "from": "dog",
+          "to": "cat",
+          "count": 57
+        },
+        {
+          "from": "deer",
+          "to": "cat",
+          "count": 11
+        },
+        {
+          "from": "bird",
+          "to": "cat",
+          "count": 5
+        },
+        {
+          "from": "dog",
+          "to": "frog",
+          "count": 4
+        },
+        {
+          "from": "frog",
+          "to": "cat",
+          "count": 3
+        },
+        {
+          "from": "deer",
+          "to": "frog",
+          "count": 3
+        },
+        {
+          "from": "cat",
+          "to": "horse",
+          "count": 3
+        },
+        {
+          "from": "horse",
+          "to": "cat",
+          "count": 3
+        },
+        {
+          "from": "cat",
+          "to": "frog",
+          "count": 3
+        },
+        {
+          "from": "cat",
+          "to": "automobile",
+          "count": 3
+        },
+        {
+          "from": "bird",
+          "to": "frog",
+          "count": 2
+        },
+        {
+          "from": "horse",
+          "to": "dog",
+          "count": 2
+        },
+        {
+          "from": "airplane",
+          "to": "cat",
+          "count": 2
+        },
+        {
+          "from": "dog",
+          "to": "horse",
+          "count": 2
+        },
+        {
+          "from": "deer",
+          "to": "bird",
+          "count": 2
+        },
+        {
+          "from": "bird",
+          "to": "airplane",
+          "count": 2
+        },
+        {
+          "from": "dog",
+          "to": "truck",
+          "count": 2
+        },
+        {
+          "from": "dog",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "horse",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "frog",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "ship",
+          "count": 1
+        },
+        {
+          "from": "horse",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "automobile",
+          "count": 1
+        },
+        {
+          "from": "truck",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "frog",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "deer",
+          "count": 1
+        }
+      ]
+    },
+    "dog": {
+      "both_correct": 345,
+      "b_only_correct": 86,
+      "d_only_correct": 14,
+      "both_wrong": 55,
+      "transitions": [
+        {
+          "from": "dog",
+          "to": "cat",
+          "count": 65
+        },
+        {
+          "from": "dog",
+          "to": "frog",
+          "count": 8
+        },
+        {
+          "from": "cat",
+          "to": "dog",
+          "count": 5
+        },
+        {
+          "from": "deer",
+          "to": "dog",
+          "count": 5
+        },
+        {
+          "from": "dog",
+          "to": "horse",
+          "count": 5
+        },
+        {
+          "from": "dog",
+          "to": "bird",
+          "count": 4
+        },
+        {
+          "from": "bird",
+          "to": "dog",
+          "count": 4
+        },
+        {
+          "from": "deer",
+          "to": "cat",
+          "count": 2
+        },
+        {
+          "from": "cat",
+          "to": "frog",
+          "count": 2
+        },
+        {
+          "from": "horse",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "frog",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "truck",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "ship",
+          "count": 1
+        },
+        {
+          "from": "horse",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "truck",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "horse",
+          "to": "airplane",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "seed2026": {
+    "cat": {
+      "both_correct": 288,
+      "b_only_correct": 54,
+      "d_only_correct": 52,
+      "both_wrong": 106,
+      "transitions": [
+        {
+          "from": "cat",
+          "to": "dog",
+          "count": 26
+        },
+        {
+          "from": "dog",
+          "to": "cat",
+          "count": 16
+        },
+        {
+          "from": "frog",
+          "to": "cat",
+          "count": 12
+        },
+        {
+          "from": "horse",
+          "to": "cat",
+          "count": 9
+        },
+        {
+          "from": "cat",
+          "to": "bird",
+          "count": 8
+        },
+        {
+          "from": "cat",
+          "to": "frog",
+          "count": 6
+        },
+        {
+          "from": "cat",
+          "to": "horse",
+          "count": 6
+        },
+        {
+          "from": "horse",
+          "to": "dog",
+          "count": 6
+        },
+        {
+          "from": "airplane",
+          "to": "cat",
+          "count": 5
+        },
+        {
+          "from": "cat",
+          "to": "deer",
+          "count": 4
+        },
+        {
+          "from": "bird",
+          "to": "cat",
+          "count": 4
+        },
+        {
+          "from": "automobile",
+          "to": "cat",
+          "count": 3
+        },
+        {
+          "from": "cat",
+          "to": "airplane",
+          "count": 3
+        },
+        {
+          "from": "frog",
+          "to": "deer",
+          "count": 3
+        },
+        {
+          "from": "horse",
+          "to": "deer",
+          "count": 3
+        },
+        {
+          "from": "dog",
+          "to": "horse",
+          "count": 3
+        },
+        {
+          "from": "frog",
+          "to": "horse",
+          "count": 2
+        },
+        {
+          "from": "bird",
+          "to": "deer",
+          "count": 2
+        },
+        {
+          "from": "deer",
+          "to": "cat",
+          "count": 2
+        },
+        {
+          "from": "horse",
+          "to": "bird",
+          "count": 2
+        },
+        {
+          "from": "truck",
+          "to": "dog",
+          "count": 2
+        },
+        {
+          "from": "bird",
+          "to": "frog",
+          "count": 1
+        },
+        {
+          "from": "ship",
+          "to": "truck",
+          "count": 1
+        },
+        {
+          "from": "frog",
+          "to": "truck",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "frog",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "frog",
+          "count": 1
+        },
+        {
+          "from": "cat",
+          "to": "ship",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "truck",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "frog",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "truck",
+          "count": 1
+        },
+        {
+          "from": "ship",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "automobile",
+          "to": "truck",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "horse",
+          "count": 1
+        }
+      ]
+    },
+    "dog": {
+      "both_correct": 356,
+      "b_only_correct": 45,
+      "d_only_correct": 28,
+      "both_wrong": 71,
+      "transitions": [
+        {
+          "from": "dog",
+          "to": "cat",
+          "count": 23
+        },
+        {
+          "from": "horse",
+          "to": "dog",
+          "count": 12
+        },
+        {
+          "from": "cat",
+          "to": "dog",
+          "count": 8
+        },
+        {
+          "from": "dog",
+          "to": "horse",
+          "count": 7
+        },
+        {
+          "from": "dog",
+          "to": "deer",
+          "count": 5
+        },
+        {
+          "from": "dog",
+          "to": "bird",
+          "count": 5
+        },
+        {
+          "from": "bird",
+          "to": "dog",
+          "count": 3
+        },
+        {
+          "from": "horse",
+          "to": "deer",
+          "count": 3
+        },
+        {
+          "from": "dog",
+          "to": "frog",
+          "count": 3
+        },
+        {
+          "from": "horse",
+          "to": "cat",
+          "count": 2
+        },
+        {
+          "from": "frog",
+          "to": "deer",
+          "count": 2
+        },
+        {
+          "from": "automobile",
+          "to": "dog",
+          "count": 2
+        },
+        {
+          "from": "cat",
+          "to": "deer",
+          "count": 2
+        },
+        {
+          "from": "frog",
+          "to": "dog",
+          "count": 2
+        },
+        {
+          "from": "airplane",
+          "to": "frog",
+          "count": 1
+        },
+        {
+          "from": "airplane",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "deer",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "ship",
+          "count": 1
+        },
+        {
+          "from": "truck",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "dog",
+          "to": "airplane",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "dog",
+          "count": 1
+        },
+        {
+          "from": "bird",
+          "to": "cat",
+          "count": 1
+        },
+        {
+          "from": "frog",
+          "to": "bird",
+          "count": 1
+        },
+        {
+          "from": "deer",
+          "to": "horse",
+          "count": 1
+        },
+        {
+          "from": "horse",
+          "to": "airplane",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "B": [
+    {
+      "run": "cnn_crop_flip_v1",
+      "accuracy": 86.82,
+      "per_class": {
+        "airplane": 91.4,
+        "automobile": 91.8,
+        "bird": 91.8,
+        "cat": 69.39999999999999,
+        "deer": 84.8,
+        "dog": 80.4,
+        "frog": 87.2,
+        "horse": 85.6,
+        "ship": 92.60000000000001,
+        "truck": 93.2
+      },
+      "directed_errors": {
+        "cat->dog": 53,
+        "cat->bird": 51,
+        "frog->bird": 39,
+        "dog->cat": 35
+      },
+      "false_bird": 187
+    },
+    {
+      "run": "cnn_crop_flip_seed123",
+      "accuracy": 86.76,
+      "per_class": {
+        "airplane": 85.6,
+        "automobile": 92.4,
+        "bird": 82.0,
+        "cat": 72.39999999999999,
+        "deer": 90.4,
+        "dog": 86.2,
+        "frog": 85.39999999999999,
+        "horse": 87.2,
+        "ship": 90.8,
+        "truck": 95.19999999999999
+      },
+      "directed_errors": {
+        "cat->dog": 80,
+        "cat->bird": 14,
+        "frog->bird": 16,
+        "dog->cat": 29
+      },
+      "false_bird": 82
+    },
+    {
+      "run": "cnn_crop_flip_seed2026",
+      "accuracy": 86.94,
+      "per_class": {
+        "airplane": 88.6,
+        "automobile": 95.19999999999999,
+        "bird": 81.2,
+        "cat": 68.4,
+        "deer": 85.6,
+        "dog": 80.2,
+        "frog": 93.2,
+        "horse": 90.4,
+        "ship": 92.4,
+        "truck": 94.19999999999999
+      },
+      "directed_errors": {
+        "cat->dog": 48,
+        "cat->bird": 17,
+        "frog->bird": 6,
+        "dog->cat": 26
+      },
+      "false_bird": 64
+    }
+  ],
+  "D": [
+    {
+      "run": "cnn_crop_flip_cutout_v1",
+      "accuracy": 87.14,
+      "per_class": {
+        "airplane": 87.8,
+        "automobile": 94.19999999999999,
+        "bird": 87.8,
+        "cat": 81.0,
+        "deer": 86.6,
+        "dog": 78.4,
+        "frog": 88.4,
+        "horse": 84.6,
+        "ship": 93.60000000000001,
+        "truck": 89.0
+      },
+      "directed_errors": {
+        "cat->dog": 51,
+        "cat->bird": 17,
+        "frog->bird": 21,
+        "dog->cat": 65
+      },
+      "false_bird": 124
+    },
+    {
+      "run": "cnn_crop_flip_cutout_seed123",
+      "accuracy": 86.74,
+      "per_class": {
+        "airplane": 85.2,
+        "automobile": 96.39999999999999,
+        "bird": 79.2,
+        "cat": 86.4,
+        "deer": 83.6,
+        "dog": 71.8,
+        "frog": 91.4,
+        "horse": 90.2,
+        "ship": 94.39999999999999,
+        "truck": 88.8
+      },
+      "directed_errors": {
+        "cat->dog": 15,
+        "cat->bird": 8,
+        "frog->bird": 7,
+        "dog->cat": 89
+      },
+      "false_bird": 58
+    },
+    {
+      "run": "cnn_crop_flip_cutout_seed2026",
+      "accuracy": 86.7,
+      "per_class": {
+        "airplane": 87.8,
+        "automobile": 94.8,
+        "bird": 85.8,
+        "cat": 68.0,
+        "deer": 88.6,
+        "dog": 76.8,
+        "frog": 89.8,
+        "horse": 90.60000000000001,
+        "ship": 92.2,
+        "truck": 92.60000000000001
+      },
+      "directed_errors": {
+        "cat->dog": 62,
+        "cat->bird": 18,
+        "frog->bird": 17,
+        "dog->cat": 42
+      },
+      "false_bird": 92
+    }
+  ]
+}
