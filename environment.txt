@@ -1,0 +1,7 @@
+Platform: macOS-15.6-arm64-arm-64bit-Mach-O
+Architecture: arm64
+Python: 3.14.10
+PyTorch: 2.15.0
+TorchVision: 0.29.2
+MPS: True
+CUDA: False

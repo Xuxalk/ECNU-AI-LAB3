@@ -1,0 +1,8 @@
+{
+    "experiment": "cnn_crop_flip_colorjitter_v1",
+    "device": "mps",
+    "parameters": 288746,
+    "best_epoch": 25,
+    "best_val_accuracy": 86.58,
+    "training_seconds": 695.4430763749988
+}

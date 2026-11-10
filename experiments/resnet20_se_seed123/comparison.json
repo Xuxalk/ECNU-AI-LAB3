@@ -1,0 +1,18 @@
+{
+  "Original CNN": {
+    "parameters": 288746,
+    "test_accuracy": 85.95,
+    "macro_f1": 85.94381570092673,
+    "cat_recall": 67.4,
+    "dog_recall": 84.89999999999999,
+    "training_seconds": 598.9773900829998
+  },
+  "ResNet20 + SE": {
+    "parameters": 274847,
+    "test_accuracy": 86.26,
+    "macro_f1": 86.19697994189312,
+    "cat_recall": 66.4,
+    "dog_recall": 83.5,
+    "training_seconds": 1134.751123375012
+  }
+}

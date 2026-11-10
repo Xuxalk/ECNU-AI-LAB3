@@ -1,0 +1,55 @@
+{
+    "B": {
+        "mean_accuracy": 86.84,
+        "sample_std": 0.09165151389911406,
+        "mean_training_minutes": 9.729688839583396,
+        "individual_results": {
+            "42": {
+                "best_accuracy": 86.82,
+                "best_epoch": 28,
+                "training_minutes": 9.33116067430019
+            },
+            "123": {
+                "best_accuracy": 86.76,
+                "best_epoch": 25,
+                "training_minutes": 9.982956501383331
+            },
+            "2026": {
+                "best_accuracy": 86.94,
+                "best_epoch": 29,
+                "training_minutes": 9.87494934306667
+            }
+        }
+    },
+    "D": {
+        "mean_accuracy": 86.86,
+        "sample_std": 0.24331050121192943,
+        "mean_training_minutes": 10.415911632177835,
+        "individual_results": {
+            "42": {
+                "best_accuracy": 87.14,
+                "best_epoch": 29,
+                "training_minutes": 9.70491491736684
+            },
+            "123": {
+                "best_accuracy": 86.74,
+                "best_epoch": 29,
+                "training_minutes": 10.848635210416667
+            },
+            "2026": {
+                "best_accuracy": 86.7,
+                "best_epoch": 26,
+                "training_minutes": 10.694184768749999
+            }
+        }
+    },
+    "paired_difference": {
+        "mean_pp": 0.020000000000000757,
+        "sample_std_pp": 0.28213471959332,
+        "per_seed": {
+            "42": 0.3200000000000074,
+            "123": -0.020000000000010232,
+            "2026": -0.23999999999999488
+        }
+    }
+}

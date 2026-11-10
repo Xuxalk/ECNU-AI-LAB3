@@ -1,0 +1,27 @@
+{
+    "experiment_name": "cnn_crop_flip_cutout_v1",
+    "seed": 42,
+    "epochs": 30,
+    "batch_size": 128,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "num_workers": 0,
+    "data_root": "data",
+    "train_indices": "outputs/metrics/train_indices.json",
+    "val_indices": "outputs/metrics/val_indices.json",
+    "normalization": {
+        "mean": [
+            0.49135084,
+            0.48206815,
+            0.44654978
+        ],
+        "std": [
+            0.24713241,
+            0.24362119,
+            0.26172142
+        ]
+    },
+    "augmentation": "crop_flip_cutout",
+    "cutout_size": 8,
+    "cutout_probability": 0.5
+}

@@ -1,0 +1,30 @@
+{
+  "ResNet20 + SE (30 epochs)": {
+    "test_accuracy": 86.26,
+    "macro_f1": 86.19697994189312,
+    "cat_recall": 66.4,
+    "dog_recall": 83.5,
+    "best_val_accuracy": 86.84,
+    "best_epoch": 30,
+    "training_seconds": 1134.751123375012,
+    "parameters": 274847
+  },
+  "ResNet20 + SE + cosine (100 epochs)": {
+    "test_accuracy": 88.49000000000001,
+    "macro_f1": 88.48014827490228,
+    "cat_recall": 77.0,
+    "dog_recall": 82.5,
+    "best_val_accuracy": 89.74,
+    "best_epoch": 95,
+    "training_seconds": 3947.030183875002,
+    "parameters": 274847
+  },
+  "delta_100_epoch_minus_30_epoch": {
+    "test_accuracy": 2.230000000000004,
+    "macro_f1": 2.283168333009158,
+    "cat_recall": 10.599999999999994,
+    "dog_recall": -1.0,
+    "best_val_accuracy": 2.8999999999999915,
+    "training_seconds": 2812.27906049999
+  }
+}

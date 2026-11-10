@@ -1,0 +1,54 @@
+{
+  "Original CNN + Crop/Flip": {
+    "experiment": "cnn_crop_flip_seed123",
+    "test_accuracy": 85.95,
+    "macro_precision": 86.32630187964303,
+    "macro_recall": 85.95,
+    "macro_f1": 85.94381570092673,
+    "cat_recall": 67.4,
+    "dog_recall": 84.9,
+    "parameters": 288746,
+    "best_val_accuracy": 86.76,
+    "best_epoch": 25,
+    "training_seconds": 598.9773900829998
+  },
+  "ResNet20 + SE (30 Epoch)": {
+    "experiment": "resnet20_se_seed123",
+    "test_accuracy": 86.26,
+    "macro_precision": 86.35560872668377,
+    "macro_recall": 86.26000000000002,
+    "macro_f1": 86.19697994189312,
+    "cat_recall": 66.4,
+    "dog_recall": 83.5,
+    "parameters": 274847,
+    "best_val_accuracy": 86.84,
+    "best_epoch": 30,
+    "training_seconds": 1134.751123375012
+  },
+  "ResNet20 + SE + Cosine (100 Epoch)": {
+    "experiment": "resnet20_se_cosine_100_seed123",
+    "test_accuracy": 88.49000000000001,
+    "macro_precision": 88.48565240742366,
+    "macro_recall": 88.49000000000001,
+    "macro_f1": 88.48014827490228,
+    "cat_recall": 77.0,
+    "dog_recall": 82.5,
+    "parameters": 274847,
+    "best_val_accuracy": 89.74,
+    "best_epoch": 95,
+    "training_seconds": 3947.030183875002
+  },
+  "ResNet20 + SE + CutMix (100 Epoch)": {
+    "experiment": "resnet20_se_cutmix_100_seed123",
+    "test_accuracy": 89.2,
+    "macro_precision": 89.16773833912481,
+    "macro_recall": 89.2,
+    "macro_f1": 89.16527197532238,
+    "cat_recall": 76.1,
+    "dog_recall": 82.39999999999999,
+    "parameters": 274847,
+    "best_val_accuracy": 90.48,
+    "best_epoch": 82,
+    "training_seconds": 3860.586559416988
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "experiment": "cnn_crop_flip_cutout_v1",
+    "device": "mps",
+    "parameters": 288746,
+    "best_epoch": 29,
+    "best_val_accuracy": 87.14,
+    "training_seconds": 582.2948950420105
+}

@@ -1,0 +1,11 @@
+{
+    "experiment": "resnet20_se_cutmix_100_seed123",
+    "device": "mps",
+    "parameters": 274847,
+    "best_epoch": 82,
+    "best_val_accuracy": 90.48,
+    "training_seconds": 3860.586559416988,
+    "last_epoch_learning_rate": 1.024425261896286e-05,
+    "scheduler": "CosineAnnealingLR",
+    "learning_rate_after_final_step": 1e-05
+}

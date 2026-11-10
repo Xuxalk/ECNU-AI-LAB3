@@ -1,0 +1,18 @@
+{
+    "baseline": {
+        "best_val_accuracy": 82.64,
+        "best_accuracy_epoch": 24,
+        "best_val_loss": 0.5372691019058228,
+        "best_loss_epoch": 9,
+        "training_seconds": 551.8185653330002
+    },
+    "crop_flip": {
+        "best_val_accuracy": 86.82,
+        "best_accuracy_epoch": 28,
+        "best_val_loss": 0.4185001223564148,
+        "best_loss_epoch": 26,
+        "training_seconds": 559.8696404580114
+    },
+    "accuracy_improvement_pp": 4.179999999999993,
+    "loss_reduction_percent": 22.106050604456094
+}

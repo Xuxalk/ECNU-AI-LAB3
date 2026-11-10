@@ -1,0 +1,8 @@
+{
+    "experiment": "resnet20_se_seed123",
+    "device": "mps",
+    "parameters": 274847,
+    "best_epoch": 30,
+    "best_val_accuracy": 86.84,
+    "training_seconds": 1134.751123375012
+}

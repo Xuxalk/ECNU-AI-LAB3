@@ -1,0 +1,7 @@
+Metric,ResNet20 + SE (30 epochs),ResNet20 + SE + cosine (100 epochs)
+Test Accuracy (%),86.26,88.49000000000001
+Macro F1 (%),86.19697994189312,88.48014827490228
+Cat Recall (%),66.4,77.0
+Dog Recall (%),83.5,82.5
+Best Val Accuracy (%),86.84,89.74
+Training Time (seconds),1134.751123375012,3947.030183875002
